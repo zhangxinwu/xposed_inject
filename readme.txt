@@ -1,7 +1,7 @@
 adb install xposed_tool_v3.0.0.apk
 adb push classes.dex /sdcard/
-adb push lib/lib/arm64-v8a/libsandhook.so /sdcard/libsandhook64.so
-adb push lib/lib/armeabi-v7a/libsandhook.so /sdcard/libsandhook32.so
+adb push lib/arm64-v8a/libsandhook.so /sdcard/libsandhook64.so
+adb push lib/armeabi-v7a/libsandhook.so /sdcard/libsandhook32.so
 adb shell
 ---
 cd /data/local/tmp
